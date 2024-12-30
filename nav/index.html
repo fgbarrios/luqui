@@ -6,6 +6,10 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -27,7 +31,11 @@
                 <h1>Home</h1>
                 <p class="subtitulo">subtitulo</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolores?</p>
-                <a href="poco.html">Leer mas</a>
+                <div class="links">
+                    <a href="poco.html">Leer mas</a>
+                    <a href="poco.html" class="ultimo">Leer otra cosa</a>
+                </div>
+                
             </div>
             <div class="right">
                 <img src="/imagenes/IMG_20241011_174031.jpg" alt="imagen" />
@@ -36,10 +44,21 @@
     </section>
 
     <section class="tomate">
+        <video src="/videos/video-fondo.mp4" autoplay muted loop></video>
         <div class="container">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel molestias corporis eum illo. Dolores impedit quo optio, veniam itaque possimus assumenda ea exercitationem omnis blanditiis doloribus ad nihil molestias nam!</p>
+            
         </div>
     </section>
+
+    <section class="tomate tomate-dos">
+        <div class="overlay"></div>
+        <div class="container">
+            <p><span class="azul">seccion</span> <span class="gordito">con</span> overlay</p>
+        </div>
+    </section>
+
+    
 
     <section class="lechuga">
         <div class="container">
