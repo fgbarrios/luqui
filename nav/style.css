@@ -278,3 +278,15 @@ header ul{
         margin-top: 0;
      }
 }
+
+/* BOTON WHATSAPP */
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 50;
+    max-width: 50px;
+}
+.whatsapp img{
+    border-radius: 50%;
+}

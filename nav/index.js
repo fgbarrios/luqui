@@ -9,7 +9,9 @@ window.addEventListener("load", () => {
       contain: true,
       imagesLoaded: true,
       autoPlay: 1500,
-      wrapAround: true
+      wrapAround: true,
+      prevNextButtons: false,
+      pageDots: false
     });
 
 });
