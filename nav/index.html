@@ -10,6 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <script src="index.js"></script>
+
+    <!-- slider -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
 </head>
 <body>
 
@@ -32,13 +39,22 @@
                 <p class="subtitulo">subtitulo</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolores?</p>
                 <div class="links">
-                    <a href="poco.html">Leer mas</a>
-                    <a href="poco.html" class="ultimo">Leer otra cosa</a>
+                    <a href="poco.html" id="alerta">Leer mas</a>
+                    
                 </div>
-                
             </div>
             <div class="right">
-                <img src="/imagenes/IMG_20241011_174031.jpg" alt="imagen" />
+                <img src="./imagenes/IMG_20241011_174031.jpg" alt="imagen" />
+            </div>
+        </div>
+    </section>
+
+    <section class="cebolla">
+        <div class="container">
+            <div class="slider">
+                <img src="/imagenes/slider/slider (1).jpeg" alt="imagen" />
+                <img src="/imagenes/slider/slider (1).webp" alt="imagen" />
+                <img src="/imagenes/slider/slider (2).jpeg" alt="imagen" />
             </div>
         </div>
     </section>
@@ -58,7 +74,11 @@
         </div>
     </section>
 
-    
+    <style>
+        a{
+            color: green !important;
+        }
+    </style>
 
     <section class="lechuga">
         <div class="container">
@@ -76,6 +96,8 @@
             </ul>
         </nav>
     </footer>
+    
+
     
 </body>
 </html>
